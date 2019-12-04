@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/addProduct.css">
+
+</head>
+<body>
+
+<div class="header">
+    <a href="/customerHomepage" class="logo">UofC Marketplace</a>
+    <a1>Hello,</a1> <a1><%=customerName %></a1>
+    <div class="header-right">
+        <a class="active" href="/addProduct">Add a Product</a>
+        <a  href="/showAllMyProducts">My Products</a>
+        <a href="/contact">Contact</a>
+        <a href="/logout">Log Out</a>
+    </div>
+</div>
+
+<div class="login-form">
+    <h1>Sell a Product </h1>
+
+    <form action="addProduct" method="POST" enctype="multipart/form-data">
+        <input type="text" name="title" placeholder="Title" required>
+        <input type="Double" name="price" placeholder="Price" required>
+        <input type="file" name="photo"formenctype="multipart/form-data" value="upload">
+        <input type="text" name="description" placeholder="Describe the product" required>
+        <input type="submit">
+    </form>
+</div>
+
+<script src="../public/javascripts/modal.js"></script>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>
