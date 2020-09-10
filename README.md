@@ -1,7 +1,7 @@
-### CPSC 471 - Data Base Management Systems
+# CPSC 471 - Data Base Management Systems
 ## E-commerce Website
 
-# How to run program:
+### How to run program:
 
 1. Add database to MySQL Workbench Server > Create New Schema ecommerce > Server > Data Import > Check Import from Self-Contained File > choose the .sql provided.
 
