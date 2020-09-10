@@ -1,5 +1,5 @@
 <object data="https://riyadhossain1998.github.io/ecommerce-site/Final%20Report%20-%20CPSC%20471.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://riyadhossain1998.github.io/ecommerce-site/Final%20Report%20-%20CPSC%20471.pdf">
-        <h1><a href="https://github.com/riyadhossain1998/ecommerce-site/blob/master/Final%20Report%20-%20CPSC%20471.pdf">View Project Report</a>.</h1>
+        <h1><a href="https://github.com/riyadhossain1998/ecommerce-site/blob/master/Final%20Report%20-%20CPSC%20471.pdf">View Project Report</a></h1>
     </embed>
 </object>
